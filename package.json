@@ -1,0 +1,28 @@
+{
+  "name": "ch5-cli",
+  "version": "1.0.0",
+  "description": "相对完善的基于Vue的H5项目脚手架",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "ch5": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imRz1015/ch5-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imRz1015/ch5-cli/issues"
+  },
+  "homepage": "https://github.com/imRz1015/ch5-cli#readme",
+  "dependencies": {
+    "commander": "^8.1.0",
+    "ejs": "^3.1.6",
+    "inquirer": "^8.1.2"
+  }
+}
