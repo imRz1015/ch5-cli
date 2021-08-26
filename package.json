@@ -2,7 +2,6 @@
   "name": "ch5-cli",
   "version": "1.0.0",
   "description": "相对完善的基于Vue的H5项目脚手架",
-  "type": "module",
   "main": "index.js",
   "bin": {
     "ch5": "./bin/cli.js"
@@ -14,15 +13,20 @@
     "type": "git",
     "url": "git+https://github.com/imRz1015/ch5-cli.git"
   },
-  "author": "",
+  "author": "tangiming",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/imRz1015/ch5-cli/issues"
   },
   "homepage": "https://github.com/imRz1015/ch5-cli#readme",
   "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.2",
     "commander": "^8.1.0",
-    "ejs": "^3.1.6",
-    "inquirer": "^8.1.2"
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.1.2",
+    "ora": "^5.4.0"
   }
 }
